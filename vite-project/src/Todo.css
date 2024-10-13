@@ -1,0 +1,81 @@
+/* Todo.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    width: 400px;
+    text-align: center;
+}
+
+.input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 70%;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ol {
+    padding: 10px;
+    margin-top: 20px;
+    list-style-type: decimal;
+    text-align: left;
+}
+
+.li {
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.button-up,
+.button-down,
+.button-delete {
+    margin-left: 5px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-up {
+    background-color: #008CBA;
+}
+
+.button-down {
+    background-color: #f39c12;
+}
+
+.button-delete {
+    background-color: #e74c3c;
+}
